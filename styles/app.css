@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.grey{
+    color: gray
+}
+
+.black-backG {
+    background-color : black;
+}
+
+.grey-backG {
+    background-color: lightgray;
+}
+
+.bold {
+    font-weight: bolder; 
+}
+
+.noDec {
+    text-decoration: none;
+}
+
+.pageNav {
+    text-align: end;
+}
+
+.pLeft {
+    padding-left: 15px;
+}
+
+.pRight {
+    padding-right: 15px;
+}
+
+.pTop {
+    padding-top: 15px;
+}
+
+.pBottom {
+    padding-bottom: 15px;
+}
+
+.borderBot {
+    border-bottom: 5px solid;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.fontONE {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.fontTWO {
+    font-family: 'Oswald', sans-serif;
+}
+
+.fontTHREE {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sep {
+    padding: 5px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.sizeM {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.strikeO {
+    text-decoration: line-through;
+}
+
+.underL {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.borderBotYel {
+    border-bottom: solid yellow 1px;
+    border-bottom-width: 3px;
+    padding-bottom: 3px; 
+}
+
+.image {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    text-align: left;
+    overflow: hidden;
+    top: 15px;
+    bottom: 10px;
+    right: 20px;
+    background-color: white;
+    color:black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 38%;
+    font-size: 30px;
+    opacity: .85;
+}
+
+.h3F{ 
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.text-block2 {
+    text-align: center;
+    overflow: hidden;
+    background-color: yellow;
+    color:black;
+}
+
+.text-block3 {
+    text-align: center;
+    overflow: hidden;
+    background-color:lightgray;
+    color:black;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: nowrap;
+}
+
+.col {
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    border: 35px solid black;
+}
